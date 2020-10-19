@@ -2,7 +2,7 @@
 from typing import List
 
 
-""" Define variables """
+""" list of floats """
 
 
 def sum_list(input_list: List[float]) -> float:
