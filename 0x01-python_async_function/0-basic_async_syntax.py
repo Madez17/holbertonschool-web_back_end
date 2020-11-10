@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
+"""
+Async
+"""
 
 import random
 import asyncio
 
 
-""" Async """
-
-
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: int = 10) -> float:
 
     """
     synchronous coroutine that takes
